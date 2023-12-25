@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shopping</title>
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="../css/contact.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.js" />
+</head>
+
+<body>
+    <section id="heder">
+        <a href="../index.html"><img src="../img/logo.svg" alt="logo" class="logo" /></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a class="active" href="./contact.html">Contact</a></li>
+                <li>
+                    <a href="./cart.html"><i class="fa-light fa-bag-shopping"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="#"><i class="fa-sharp fa-regular fa-bag-shopping"></i></a>
+            <div onclick="openNav()"><i id="bar" class="fas fa-outdent"></i></div>
+        </div>
+    </section>
+    <!-- mobil manu start -->
+    <div id="m-main-menu">
+        <div id="m-menu">
+            <div id="close" onclick="closeNav()">
+                <i class="fa-regular fa-xmark"></i>
+            </div>
+            <ul id="m-navbar">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a class="active" href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- mobil manu end -->
+
+    <section id="contact-header">
+        <h2>#Let 's_talk</h2>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </section>
+
+    <section id="contact-details">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our Agency location or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fas fa-map"></i>
+                    <p>56 Glassford Street Lorem, ipsum dolor.</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>devdas007@gmail.com</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone"></i>
+                    <p>+91 98745 63210</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-clock"></i>
+                    <p>Monday To Satueday : 9.00 to 16.pm </p>
+                </li>
+            </div>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.4141063228517!2d72.79001437476384!3d21.135912248317112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be053edf540bdd3%3A0x58448947b17649f7!2sBmu%20BSC-IT%20MSC-IT!5e0!3m2!1sen!2sin!4v1682939151728!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="form-details">
+        <form action="">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="people">
+            <div>
+                <img src="../img/1.png" alt="">
+                <p>
+                    <span>Raj Desai</span><br>
+                    <span>phone : +91 98765 41230</span><br>
+                    <span>Email : rajduli01@devdas.com</span>
+                </p>
+            </div>
+            <div>
+                <img src="../img/3.png" alt="">
+                <p>
+                    <span>Duli raj</span><br>
+                    <span>phone : +91 98765 41230</span><br>
+                    <span>Email : duliraj01@devdas.com</span>
+                </p>
+            </div>
+            <div>
+                <img src="../img/2.png" alt="">
+                <p>
+                    <span>Raj son(radulesver)</span><br>
+                    <span>phone : +91 98765 41230</span><br>
+                    <span>Email : rajdudhison01@devdas.com</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="newtext">
+            <h2>Sign Up For Newsletters</h2>
+            <p>
+                Get E-mail updates about our latest shop and
+                <span>special offers.</span>
+            </p>
+        </div>
+        <div class="newform">
+            <input type="text" placeholder="Your email address" />
+            <button>Sign up</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="col">
+            <img src="../img/logo.svg" alt="logo" class="logo" />
+            <h4>Contact</h4>
+            <p>
+                <strong>Address:</strong>shop - 1, Golden city, motavarachha, surat,
+                394101
+            </p>
+            <p><strong>Phone:</strong>+91 9876543210</p>
+            <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="../img/app.jpg" alt="appstore" />
+                <img src="../img/play.jpg" alt="playstor" />
+            </div>
+            <p>Secured Pyment Gateway</p>
+            <img src="../img/pay.png" alt="pyment" />
+        </div>
+        <div class="copyright">
+            <p>@ 2021, Tech2 etc - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+    <script>
+        const openNav = () => {
+            document.getElementById("m-main-menu").style.display = "block";
+        };
+
+        const closeNav = () => {
+            document.getElementById("m-main-menu").style.display = "none";
+        };
+    </script>
+</body>
+
+</html>

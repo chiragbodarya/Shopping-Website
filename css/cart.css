@@ -1,0 +1,183 @@
+#cart-header {
+    background-image: url(../img/banner.png);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#cart-header h2 {
+    color: white;
+    font-size: 40px;
+}
+
+#cart-header p {
+    color: white;
+    font-size: 25px;
+}
+
+#cart {
+    padding: 20px 50px;
+    overflow: auto;
+}
+
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img {
+    width: 70px;
+}
+
+#cart table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+
+#cart table td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#cart table thead {
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
+#cart table thead td {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+#cart table thead tr td {
+    padding-top: 15px;
+}
+
+#cart table thead td {
+    font-size: 13px;
+}
+
+#cart-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 50px;
+
+}
+
+#cart-add #coupan {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#cart-add #coupan h3,
+#cart-add #subtotal h3 {
+    padding-bottom: 15px;
+}
+
+#cart-add #coupan input {
+    padding: 15px 15px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+}
+
+#cart-add #coupan button {
+    background-color: #088178;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+}
+
+#cart-add #subtotal {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e1e9e1;
+    padding: 30px;
+}
+
+#cart-add #subtotal table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#cart-add #subtotal table td {
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
+
+#cart-add #subtotal button {
+    background-color: #088178;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+}
+
+@media (max-width:799px) {
+    #cart-add {
+        flex-direction: column;
+    }
+
+    #cart-add #coupan {
+        width: 100%;
+    }
+
+    #cart-add #subtotal {
+        width: 100%;
+    }
+}
+
+@media (max-width:399px) {
+    #cart {
+        padding: 15px 30px;
+    }
+
+    #cart-add {
+        padding: 15px 30px;
+    }
+}

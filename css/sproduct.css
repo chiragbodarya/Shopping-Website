@@ -1,0 +1,152 @@
+#prodetails {
+    padding: 60px;
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .img-section {
+    width: 35%;
+    margin-right: 50px;
+}
+
+/* #prodetails .single-pro-img {
+    width: 40%;
+    margin-right: 50px;
+} */
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+    /* width: 40%;
+    margin-right: 50px; */
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h6 {
+    font-size: 17px;
+}
+
+#prodetails .single-pro-details h4 {
+    padding: 30px 0 15px 0;
+    font-size: 25px;
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    margin: 10px 0px 10px 0px;
+}
+
+#prodetails .single-pro-details select:focus {
+    outline: none;
+}
+
+#prodetails .single-pro-details div {
+    display: flex;
+    align-items: center;
+}
+
+#prodetails .single-pro-details div input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+#prodetails .single-pro-details div input:focus {
+    outline: none;
+}
+
+#prodetails .single-pro-details div button {
+    background-color: #088178;
+    color: #fff;
+    padding: 13px;
+    border-radius: 4px;
+}
+
+#prodetails .single-pro-details span {
+    line-height: 25px;
+}
+
+@media (max-width:799px) {
+    #prodetails {
+        padding: 30px;
+    }
+
+    #prodetails .single-pro-details {
+        padding-top: 0px;
+    }
+
+    #prodetails .single-pro-details h4 {
+        padding: 20px 0 10px 0;
+    }
+
+    #product1 {
+        padding: 30px 0px;
+    }
+
+    #product1 h2 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:599px) {
+    #prodetails {
+        padding: 20px;
+        margin: 0px;
+    }
+
+    #product1 {
+        padding: 20px 0px;
+    }
+
+    #product1 h2 {
+        font-size: 55px;
+        padding: 10px;
+    }
+}
+
+@media (max-width:499px) {
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .img-section {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
+
+    #product1 {
+        padding: 5px 0px;
+    }
+
+    #product1 h2 {
+        font-size: 30px;
+    }
+
+    #product1 p {
+        font-size: 15px;
+    }
+}
